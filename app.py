@@ -15,6 +15,7 @@
 
 import os, tornado
 from telegram import Bot
+from acutebot import TOKEN
 from acutebot.helpers.database.spotify_sql import update_creds
 from acutebot.helpers.spthelper import SpotifyClient
 
